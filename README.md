@@ -1,3 +1,15 @@
+Create an account at Cloudinary. Find your:
+
+* Cloud name
+* API key
+* API secret
+
+Replace those values in `client/config.js` and `server/config.js`.
+
+Install the required Meteor package:
+
+    meteor add lepozepo:cloudinary
+
 To run the app in Cloud9, open a terminal and type:
    
     meteor --port $IP:$PORT

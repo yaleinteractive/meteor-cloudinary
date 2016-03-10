@@ -1,0 +1,9 @@
+<template name="images">
+
+	<h3>Uploaded images</h3>
+	
+	{{#each images}}
+		<img src="{{c.url public_id width=200 height=200 crop='fill' effect='grayscale'}}">
+	{{/each}}
+	
+</template>
