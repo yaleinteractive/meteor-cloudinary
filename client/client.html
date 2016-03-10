@@ -1,0 +1,21 @@
+<head>
+	<title>Images</title>
+</head>
+
+<body>
+	{{> tester}}
+</body>
+
+<template name="tester">
+	
+	<h3>Upload</h3>
+
+	<input type="file" class="uploader">
+
+	<h3>Uploaded images</h3>
+	
+	{{#each uploaded_images}}
+		<img src="{{c.url public_id width=200 height=200 crop='limit'}}">
+	{{/each}}
+	
+</template>
