@@ -1,4 +1,4 @@
-Create an account at Cloudinary. Find your:
+Create an account at [Cloudinary](https://cloudinary.com). Find your:
 
 * Cloud name
 * API key
@@ -21,6 +21,12 @@ The app will normally remain running until there has been one hour of inactivity
 
 If you need to stop the app, in that same Terminal tab press `Ctrl-C`.
 But you shouldn't need to stop it since changes are reloaded automatically.
+
+Docs for the Cloudinary Meteor package:  
+https://github.com/Lepozepo/cloudinary
+
+All available Cloudinary transformations:  
+http://cloudinary.com/documentation/image_transformations
 
 If you want to access the database directly, in a new terminal type:
 
